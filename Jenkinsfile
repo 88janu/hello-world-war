@@ -1,9 +1,9 @@
 pipeline {
-    agent slave1
+    agent any
     stages {
         stage('checkout') {
             steps {
-                sh ''
+                sh 'https://github.com/88janu/hello-world-war.git'
             }
         }
         stage('build') {
