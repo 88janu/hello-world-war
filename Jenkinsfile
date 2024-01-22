@@ -1,4 +1,4 @@
-@library("my-shared-library") _
+@Library("my-shared-library") _
 pipeline {
     agent {label 'slave1'}
     stages {
