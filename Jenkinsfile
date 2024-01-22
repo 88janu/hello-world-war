@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                mavenbuild()
+                mavenBuild()
             }
         }
         stage('deploy') {
